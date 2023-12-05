@@ -1,5 +1,5 @@
 import { MongoClient } from "mongodb";
-import { MONGODB_PROVIDER } from "../config/constants";
+import { MONGODB_PROVIDER } from "../configs/constants";
 import { Logger } from "@nestjs/common";
 
 export const mongoDbProvider = [
